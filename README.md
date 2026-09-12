@@ -11,17 +11,22 @@ Listening ports: None.
 Trace hops: 30 hops
 
 # Explanation: 
-# hostname: a hostname is a human-readable name that is given to our device when its connected to a network. It's for our own convenience as  computer understand numeric data so when a device is connected to a network its mostly acknowledge by its IP address
+# hostname: 
+a hostname is a human-readable name that is given to our device when its connected to a network. It's for our own convenience as  computer understand numeric data so when a device is connected to a network its mostly acknowledge by its IP address
 
-# hostid: A numeric value assigned to our device. It's essential for software activation or licenses
+# hostid: 
+A numeric value assigned to our device. It's essential for software activation or licenses
 
-# IP address: An IP address is a unique four set numeric value given to a device when its connected to network. Every device has a unique numeric value. IP address helps identify which device is connected a network and helps send packets to that specific device
+# IP address: 
+An IP address is a unique four set numeric value given to a device when its connected to network. Every device has a unique numeric value. IP address helps identify which device is connected a network and helps send packets to that specific device
 * To know your IP in linux use command: IP addr/ifconfig
   
-# MAC address: Every electronic device like pc, mobiles, tv, etc have a MAC address which is basically a hardware number burned into NIC which is a network card and it helps connect device to a network either to wi-fi or ethernet
+# MAC address: 
+Every electronic device like pc, mobiles, tv, etc have a MAC address which is basically a hardware number burned into NIC which is a network card and it helps connect device to a network either to wi-fi or ethernet
 * To know your mac address use command IP addr and look for "link/ether"
 
-# Default Gateway: A default Gateway helps us connect to a network that is outside of our LAN network. A default gateway which is typically a router can send our packets to a IP address that is not in the same subnet group as our IP address. For instance, if i wish to send something to someone who has a complete different IP address and is not in my LAN network my packet is forwarded to default gateway first.
+# Default Gateway: 
+A default Gateway helps us connect to a network that is outside of our LAN network. A default gateway which is typically a router can send our packets to a IP address that is not in the same subnet group as our IP address. For instance, if i wish to send something to someone who has a complete different IP address and is not in my LAN network my packet is forwarded to default gateway first.
 * To know your default gateway use command: IP route
 
 # Listening ports (netstat):
