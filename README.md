@@ -2,13 +2,13 @@
 A Short networking report of a local PC to understand network commands and some of the fundamentals.
 
 # NETWORK REPORT
-*hostname: Kali
-*hostid: 000000
-*IP address: 10.0.2.20
-*MAC address: 08:02:27:29:59:1d 
-*Default Gateway: 10.0.2.2
-*Listening ports: None.
-*Trace hops: 30 hops
+* hostname: Kali
+* hostid: 000000
+* IP address: 10.0.2.20
+* MAC address: 08:02:27:29:59:1d 
+* Default Gateway: 10.0.2.2
+* Listening ports: None.
+* Trace hops: 30 hops
 
 # Explanation: 
 # hostname: 
