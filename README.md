@@ -53,4 +53,14 @@ nslookup used for dns system it looks for query type like mx for mail servers AA
 arp is Address Resolution Address protocol which asks for the MAC address of the IP address which its assoicated with. Device A wants to send data to Device B on the local network. Device A knows Device B’s IP address but it needs its physical MAC address to deliver the packet. First, Device A checks its ARP cache (a local temporary table of IP-to-MAC mappings). If the MAC address is already saved there Device A sends the data immediately. If the MAC address is not in the cache ARP sends out a broadcast request to the entire local network: "Who has this IP address? Tell Device A. Device B hears the request, replies directly with its MAC address, and Device A saves that pair into its ARP cache before sending out the data packet.
 * Use arp -a
 
+# curl
+with curl we can send and receive data to a website. It's like we are interacting with the website using our command-line. This is how curl gets and sends data 
+Receiving Data (GET): Fetching web pages, downloading files, or pulling data from an API.
+Sending Data (POST/PUT): Submitting online forms, uploading files, or sending data payloads (like JSON) to a server or web application.
+* Use curl -I to get headers (server status, cookies, content type) instead of the whole page.
+* curl -O Downloads file.zip and saves it to your current folder.
+
+# wget
+primary goal of wget is to download files and whole sites and saves its output to a file on a disk 
+* use wget example.com 
 
