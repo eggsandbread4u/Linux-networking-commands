@@ -62,5 +62,15 @@ Sending Data (POST/PUT): Submitting online forms, uploading files, or sending da
 
 # wget
 primary goal of wget is to download files and whole sites and saves its output to a file on a disk 
-* use wget example.com 
+* use wget example.com
+
+# nc
+This command is used for reading and wirting data across the network using TCP and UDP protocols.
+* -l Listen mode: Starts a server to listen for incoming connections.
+* -p Port number: Specifies the local source port to use.
+* -v Verbose mode: Provides detailed output about the connection status.
+* -z Zero-I/O mode: Scans for open ports without sending data.
+* -u UDP mode: Uses UDP protocol instead of the default TCP.
+* -w Timeout: Sets a connection timeout limit in seconds.
+* -k Keep alive: Forces nc to keep listening after a client disconnects.
 
